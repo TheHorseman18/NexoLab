@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NexoLab | Empleo inclusivo</title>
+<style>
+:root{--green:#176b4d;--light:#eef7f2;--dark:#17352b;--accent:#e7a23b;--text:#17231e;--focus:#ff8c00}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:var(--text);line-height:1.6}
+.skip{position:absolute;left:-9999px;padding:12px;background:#fff;color:#000}.skip:focus{left:10px;top:10px;z-index:99}
+header{background:var(--dark);color:#fff;position:sticky;top:0;z-index:10}.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center}.logo{font-size:1.4rem;font-weight:700}.nav a{color:#fff;text-decoration:none;margin-left:16px;padding:8px}.nav a:focus,.nav a:hover{outline:3px solid var(--focus)}
+.hero{background:#e5f0eb;padding:70px 20px}.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr;gap:35px;align-items:center}.hero h1{font-size:clamp(2.3rem,5vw,4rem);line-height:1.05;color:var(--dark)}.hero p{font-size:1.15rem}.btn{display:inline-block;background:var(--green);color:#fff;padding:11px 18px;border-radius:7px;text-decoration:none;font-weight:bold}.btn:focus{outline:4px solid var(--focus)}.badge{background:#fff;padding:22px;border-left:7px solid var(--accent);border-radius:10px}
+section{max-width:1100px;margin:auto;padding:55px 20px}h2{font-size:2rem;color:var(--dark)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card,.pour-card{border:1px solid #cbd8d2;border-radius:12px;padding:22px;background:#fff}.card h3,.pour-card h3{color:var(--green)}.pour{background:var(--light)}.pour-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.tag{font-weight:bold;background:#dbeee5;padding:4px 10px;border-radius:20px}.contact{background:var(--dark);color:#fff}.contact h2{color:#fff}footer{background:#10251e;color:#fff;text-align:center;padding:20px}
+button{font:inherit;cursor:pointer}.high-contrast{--green:#000;--light:#fff;--dark:#000;--text:#000;--accent:#ff0}
+@media(max-width:760px){.hero-inner,.grid,.pour-grid{grid-template-columns:1fr}.nav{flex-direction:column;align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido principal</a>
+<header><nav class="nav" aria-label="Navegaci贸n principal"><div class="logo">NexoLab</div><div>
+<a href="#inicio">Inicio</a><a href="#modelo">Modelo</a><a href="#empleo">Empleo</a><a href="#pour">Accesibilidad</a><a href="#contacto">Contacto</a></div></nav></header>
+<main id="contenido">
+<section class="hero" id="inicio"><div class="hero-inner"><div>
+<span class="tag">Modelo de negocio inclusivo</span><h1>Talento diferente. Oportunidades reales.</h1>
+<p>NexoLab integra laboralmente a personas con autismo, s铆ndrome de Down y discapacidad motriz en servicios digitales adaptados.</p>
+<a class="btn" href="#modelo">Conocer el modelo</a></div>
+<div class="badge"><h2>驴Qu茅 hacemos?</h2><p>Ofrecemos puestos adaptados en etiquetado de datos para IA, control de calidad BPO y verificaci贸n de contenidos.</p><p><strong>Meta:</strong> empleo formal, salario justo y entornos sensoriales adaptados.</p></div></div></section>
+<section id="modelo"><h2>Modelo de negocio</h2><p>La propuesta de NexoLab parte de la integraci贸n laboral de personas con neurodivergencia o discapacidad motriz y de la adaptaci贸n de tareas digitales a sus capacidades.</p>
+<div class="grid"><article class="card"><h3>Puestos adaptados</h3><p>Etiquetado de datos, control de calidad BPO y verificaci贸n de contenidos.</p></article>
+<article class="card"><h3>Clientes Tech</h3><p>Servicios B2B por volumen, outsourcing gestionado y suscripci贸n de equipos dedicados.</p></article>
+<article class="card"><h3>Impacto social</h3><p>Empleo formal, salario justo y reinversi贸n en tecnolog铆a adaptativa y capacitaci贸n.</p></article></div></section>
+<section id="empleo"><h2>Experiencia de trabajo</h2><div class="grid">
+<article class="card"><h3>Evaluaci贸n pr谩ctica</h3><p>Pruebas t茅cnicas sin presi贸n de entrevistas convencionales.</p></article>
+<article class="card"><h3>Entorno sensorial</h3><p>Iluminaci贸n graduada y reducci贸n de ruido.</p></article>
+<article class="card"><h3>Job Coach</h3><p>Tutor铆a continua para mediaci贸n laboral y desarrollo interpersonal.</p></article></div></section>
+<section class="pour" id="pour"><h2>Metodolog铆a POUR</h2><div class="pour-grid">
+<article class="pour-card"><span class="tag">P 鈥� Perceptible</span><h3>Informaci贸n que puede percibirse</h3><p>Texto claro, jerarqu铆a de encabezados, contraste suficiente y contenido que no depende 煤nicamente del color.</p></article>
+<article class="pour-card"><span class="tag">O 鈥� Operable</span><h3>Interfaz que puede utilizarse</h3><p>Navegaci贸n con enlaces reconocibles, foco visible y enlace para saltar directamente al contenido.</p></article>
+<article class="pour-card"><span class="tag">U 鈥� Comprensible</span><h3>Contenido f谩cil de entender</h3><p>Lenguaje directo, secciones previsibles y etiquetas que explican qu茅 hace cada elemento.</p></article>
+<article class="pour-card"><span class="tag">R 鈥� Robusto</span><h3>Compatible con distintas tecnolog铆as</h3><p>HTML sem谩ntico, dise帽o adaptable y elementos compatibles con tecnolog铆as de apoyo.</p></article></div>
+<p><button class="btn" id="contrast" aria-pressed="false">Activar alto contraste</button></p></section>
+<section id="contacto" class="contact"><h2>Contacto</h2><p>驴Eres una empresa tecnol贸gica interesada en servicios digitales inclusivos?</p><p><strong>Correo:</strong> contacto@nexolab.example</p></section>
+</main><footer><p>NexoLab 路 Maqueta acad茅mica de sitio web accesible</p></footer>
+<script>document.getElementById('contrast').onclick=function(){document.body.classList.toggle('high-contrast');let on=document.body.classList.contains('high-contrast');this.setAttribute('aria-pressed',on);this.textContent=on?'Desactivar alto contraste':'Activar alto contraste'}</script>
+</body></html>
